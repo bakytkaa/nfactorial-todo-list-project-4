@@ -1,0 +1,14 @@
+.main {
+  .name {
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgb(21 21 23 / 20%);
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 4rem;
+  }
+}

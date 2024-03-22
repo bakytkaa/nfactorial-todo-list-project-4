@@ -1,0 +1,20 @@
+.circle-button {
+  color: #f0f0f0;
+  background: #081e34;
+  border-radius: 50%;
+  width: calc(0.875rem + 1.5rem);
+  height: calc(0.875rem + 1.5rem);
+  border: none;
+  cursor: pointer;
+
+  position: relative;
+
+  span {
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

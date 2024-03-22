@@ -1,0 +1,33 @@
+.todo-list {
+  padding: 1.5rem 0;
+
+  .todo-item {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 0.5rem;
+      cursor: pointer;
+    }
+
+    .text {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.375rem;
+      cursor: pointer;
+
+      &.done {
+        color: #959595;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.375rem;
+        text-decoration: line-through;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.filter-button {
+  border-radius: 6.25rem;
+  background: linear-gradient(
+      0deg,
+      rgba(8, 30, 52, 0.05) 0%,
+      rgba(8, 30, 52, 0.05) 100%
+    ),
+    #f0f0f0;
+
+  padding: 0.625rem 1.5rem;
+  border: none;
+  cursor: pointer;
+
+  color: #081e34;
+
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem;
+
+  margin-right: 1rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+    color: #fff;
+    background: rgba(8, 30, 52, 0.42);
+  }
+}
